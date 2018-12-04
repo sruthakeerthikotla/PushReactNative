@@ -5,6 +5,7 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302AC1ABCB8CE00DB3ED1 /* libRCTActionSheet.a */; };
 		00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302BA1ABCB90400DB3ED1 /* libRCTGeolocation.a */; };
@@ -12,6 +13,7 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* RNPushSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNPushSampleTests.m */; };
+		0338A1756A6E42B1324AD80F /* libPods-RNPushSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B35938D960B474EC9A4BDA /* libPods-RNPushSample.a */; };
 		11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
@@ -36,10 +38,8 @@
 		2DCD954D1E0B4F2C00145EB5 /* RNPushSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNPushSampleTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		91516A95C137F4B5D01DB206 /* libPods-RNPushSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F5502621F568390F7737D1 /* libPods-RNPushSample.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		F5C386AEA2C64957B80F88FE /* libRNIBMMobileFirst.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D388AB101A4A97B4DC3B6C /* libRNIBMMobileFirst.a */; };
-		E0D6870EB5C84CE5829B89F2 /* libRNIBMMobileFirstPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F759B3E79A439F90781487 /* libRNIBMMobileFirstPush.a */; };
+		C7AF814621B5252600720635 /* mfpclient.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7AF812021B5252600720635 /* mfpclient.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -341,17 +341,15 @@
 		2D02E47B1E0B4A5D006451C7 /* RNPushSample-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNPushSample-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* RNPushSample-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNPushSample-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		59F5502621F568390F7737D1 /* libPods-RNPushSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNPushSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B35938D960B474EC9A4BDA /* libPods-RNPushSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNPushSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
-		BEFCBFB8CC7448BDFE2979B0 /* Pods-RNPushSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPushSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNPushSample/Pods-RNPushSample.release.xcconfig"; sourceTree = "<group>"; };
-		DDC0475ADC725B52EC0A3161 /* Pods-RNPushSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPushSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNPushSample/Pods-RNPushSample.debug.xcconfig"; sourceTree = "<group>"; };
-		ABA6F6A3F3D94A758B9D9B3B /* RNIBMMobileFirst.xcodeproj */ = {isa = PBXFileReference; name = "RNIBMMobileFirst.xcodeproj"; path = "../node_modules/react-native-ibm-mobilefirst/ios/RNIBMMobileFirst.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		E1D388AB101A4A97B4DC3B6C /* libRNIBMMobileFirst.a */ = {isa = PBXFileReference; name = "libRNIBMMobileFirst.a"; path = "libRNIBMMobileFirst.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		BC41082300BC476AA5282698 /* RNIBMMobileFirstPush.xcodeproj */ = {isa = PBXFileReference; name = "RNIBMMobileFirstPush.xcodeproj"; path = "../node_modules/react-native-ibm-mobilefirst-push/ios/RNIBMMobileFirstPush.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		65F759B3E79A439F90781487 /* libRNIBMMobileFirstPush.a */ = {isa = PBXFileReference; name = "libRNIBMMobileFirstPush.a"; path = "libRNIBMMobileFirstPush.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		B10209D74890A44CABE2D708 /* Pods-RNPushSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPushSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNPushSample/Pods-RNPushSample.debug.xcconfig"; sourceTree = "<group>"; };
+		C76C013521B6A32B00203DD4 /* RNPushSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = RNPushSample.entitlements; path = RNPushSample/RNPushSample.entitlements; sourceTree = "<group>"; };
+		C7AF812021B5252600720635 /* mfpclient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mfpclient.plist; sourceTree = "<group>"; };
+		F923F606B72BF7E2D10FE363 /* Pods-RNPushSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNPushSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNPushSample/Pods-RNPushSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -379,9 +377,7 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				91516A95C137F4B5D01DB206 /* libPods-RNPushSample.a in Frameworks */,
-				F5C386AEA2C64957B80F88FE /* libRNIBMMobileFirst.a in Frameworks */,
-				E0D6870EB5C84CE5829B89F2 /* libRNIBMMobileFirstPush.a in Frameworks */,
+				0338A1756A6E42B1324AD80F /* libPods-RNPushSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +489,8 @@
 		13B07FAE1A68108700A75B9A /* RNPushSample */ = {
 			isa = PBXGroup;
 			children = (
+				C76C013521B6A32B00203DD4 /* RNPushSample.entitlements */,
+				C7AF812021B5252600720635 /* mfpclient.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -527,20 +525,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		196C183E3BC8D3A8D2306B46 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DDC0475ADC725B52EC0A3161 /* Pods-RNPushSample.debug.xcconfig */,
-				BEFCBFB8CC7448BDFE2979B0 /* Pods-RNPushSample.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				59F5502621F568390F7737D1 /* libPods-RNPushSample.a */,
+				38B35938D960B474EC9A4BDA /* libPods-RNPushSample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -552,6 +541,15 @@
 				5E9157351DD0AC6500FF2AA8 /* libRCTAnimation.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		65095593844574044A68E213 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B10209D74890A44CABE2D708 /* Pods-RNPushSample.debug.xcconfig */,
+				F923F606B72BF7E2D10FE363 /* Pods-RNPushSample.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		78C398B11ACF4ADC00677621 /* Products */ = {
@@ -578,8 +576,6 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
-				ABA6F6A3F3D94A758B9D9B3B /* RNIBMMobileFirst.xcodeproj */,
-				BC41082300BC476AA5282698 /* RNIBMMobileFirstPush.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -601,7 +597,7 @@
 				00E356EF1AD99517003FC87E /* RNPushSampleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				196C183E3BC8D3A8D2306B46 /* Pods */,
+				65095593844574044A68E213 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -653,13 +649,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNPushSample" */;
 			buildPhases = (
-				527F7F80BFC097A5D208E970 /* [CP] Check Pods Manifest.lock */,
+				5E69A0CC4F09A011B076BA14 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				5B5E43638DD3F728A9308F8A /* [CP] Embed Pods Frameworks */,
-				738A98BB3F3DD9A3E726550A /* [CP] Copy Pods Resources */,
+				AFC1B2450DB6614922FB2C0D /* [CP] Embed Pods Frameworks */,
+				D685027A28FC7A5ED537BDB0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -712,12 +708,24 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 940;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = TN6YQNGLXP;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1075,6 +1083,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7AF814621B5252600720635 /* mfpclient.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -1126,7 +1135,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		527F7F80BFC097A5D208E970 /* [CP] Check Pods Manifest.lock */ = {
+		5E69A0CC4F09A011B076BA14 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1144,7 +1153,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5B5E43638DD3F728A9308F8A /* [CP] Embed Pods Frameworks */ = {
+		AFC1B2450DB6614922FB2C0D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1162,7 +1171,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNPushSample/Pods-RNPushSample-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		738A98BB3F3DD9A3E726550A /* [CP] Copy Pods Resources */ = {
+		D685027A28FC7A5ED537BDB0 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1263,16 +1272,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNPushSample.app/RNPushSample";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst-push/ios",
-				);
 			};
 			name = Debug;
 		};
@@ -1291,26 +1290,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNPushSample.app/RNPushSample";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst-push/ios",
-				);
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDC0475ADC725B52EC0A3161 /* Pods-RNPushSample.debug.xcconfig */;
+			baseConfigurationReference = B10209D74890A44CABE2D708 /* Pods-RNPushSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RNPushSample/RNPushSample.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = TN6YQNGLXP;
 				INFOPLIST_FILE = RNPushSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1318,23 +1310,22 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfp.sdk;
 				PRODUCT_NAME = RNPushSample;
+				PROVISIONING_PROFILE_SPECIFIER = "MobileFirst Client SDK";
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst-push/ios",
-				);
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEFCBFB8CC7448BDFE2979B0 /* Pods-RNPushSample.release.xcconfig */;
+			baseConfigurationReference = F923F606B72BF7E2D10FE363 /* Pods-RNPushSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RNPushSample/RNPushSample.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TN6YQNGLXP;
 				INFOPLIST_FILE = RNPushSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1342,14 +1333,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfp.sdk;
 				PRODUCT_NAME = RNPushSample;
+				PROVISIONING_PROFILE_SPECIFIER = "MobileFirst Client SDK";
 				VERSIONING_SYSTEM = "apple-generic";
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst-push/ios",
-				);
 			};
 			name = Release;
 		};
@@ -1376,16 +1363,6 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst-push/ios",
-				);
 			};
 			name = Debug;
 		};
@@ -1412,16 +1389,6 @@
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 9.2;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst-push/ios",
-				);
 			};
 			name = Release;
 		};
@@ -1447,16 +1414,6 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNPushSample-tvOS.app/RNPushSample-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst-push/ios",
-				);
 			};
 			name = Debug;
 		};
@@ -1482,16 +1439,6 @@
 				SDKROOT = appletvos;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RNPushSample-tvOS.app/RNPushSample-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst/ios/**",
-					"$(SRCROOT)/../node_modules/react-native-ibm-mobilefirst-push/ios",
-				);
 			};
 			name = Release;
 		};

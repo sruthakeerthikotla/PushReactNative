@@ -10,7 +10,7 @@
     "react": "16.6.1",
     "react-native": "0.57.5",
     "react-native-ibm-mobilefirst": "^8.0.2018111809",
-    "react-native-ibm-mobilefirst-push": "file:../../../SDKs/mfp-react-native-yash/push/target/react-native-ibm-mobilefirst-push.tar.gz"
+    "react-native-ibm-mobilefirst-push": "file:../mfp-react-native/push/target/react-native-ibm-mobilefirst-push.tar.gz"
   },
   "devDependencies": {
     "babel-jest": "23.6.0",

@@ -6,7 +6,7 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - IBMMobileFirstPlatformFoundation (8.0.2018111416)
+  - IBMMobileFirstPlatformFoundation (8.0.2018082906)
   - IBMMobileFirstPlatformFoundationPush (8.0.2018022719):
     - IBMMobileFirstPlatformFoundation (~> 8.0)
   - React (0.57.5):
@@ -85,28 +85,34 @@ DEPENDENCIES:
   - RNIBMMobileFirstPush/RNMFPPush (from `../node_modules/react-native-ibm-mobilefirst-push/ios`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga/yoga.podspec`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - boost-for-react-native
+    - IBMMobileFirstPlatformFoundation
+    - IBMMobileFirstPlatformFoundationPush
+
 EXTERNAL SOURCES:
   DoubleConversion:
-    :podspec: ../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec
+    :podspec: "../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec"
   Folly:
-    :podspec: ../node_modules/react-native/third-party-podspecs/Folly.podspec
+    :podspec: "../node_modules/react-native/third-party-podspecs/Folly.podspec"
   glog:
-    :podspec: ../node_modules/react-native/third-party-podspecs/glog.podspec
+    :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   React:
-    :path: ../node_modules/react-native
+    :path: "../node_modules/react-native"
   RNIBMMobileFirst:
-    :path: ../node_modules/react-native-ibm-mobilefirst/ios
+    :path: "../node_modules/react-native-ibm-mobilefirst/ios"
   RNIBMMobileFirstPush:
-    :path: ../node_modules/react-native-ibm-mobilefirst-push/ios
+    :path: "../node_modules/react-native-ibm-mobilefirst-push/ios"
   yoga:
-    :path: ../node_modules/react-native/ReactCommon/yoga/yoga.podspec
+    :path: "../node_modules/react-native/ReactCommon/yoga/yoga.podspec"
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
   DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
   Folly: c89ac2d5c6ab169cd7397ef27485c44f35f742c7
   glog: e8acf0ebbf99759d3ff18c86c292a5898282dcde
-  IBMMobileFirstPlatformFoundation: 374872f2bede564f1b755e2ad34c71ef3406af9a
+  IBMMobileFirstPlatformFoundation: a092592de6c9c72fd1f8c8d416f028ae8e0469c3
   IBMMobileFirstPlatformFoundationPush: 34d980b21409a6cca7d7a6fe3e54dc48f39837ec
   React: 1fe0eb13d90b625d94c3b117c274dcfd2e760e11
   RNIBMMobileFirst: 2b87873fc7bebb59cdb71195a1384b3a2383ffce
@@ -115,4 +121,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 054f17a6f96250c9cb9efa2cf1bb0722d1867cba
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

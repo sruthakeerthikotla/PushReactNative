@@ -32,4 +32,16 @@
   return YES;
 }
 
+- (void) application:(UIApplication *) application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+  [[NSNotificationCenter defaultCenter] postNotificationName:@"RNMFPPushDidRegisterForRemoteNotificationsWithDeviceToken" object:deviceToken];
+}
+
+- (void) application:(UIApplication*)application didFailToRegisterForRemoteNotifications: (NSError*) error {
+  [[NSNotificationCenter defaultCenter] postNotificationName:@"RNMFPPushDidFailToRegisterForRemoteNotificationsWithError" object:error];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+  [[NSNotificationCenter defaultCenter] postNotificationName:@"RNMFPPushDidReceiveRemoteNotification" object:userInfo];
+}
+
 @end
