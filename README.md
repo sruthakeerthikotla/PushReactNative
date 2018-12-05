@@ -6,15 +6,13 @@ Checkout this link to know more:
 
 ## Setting up the Sample
 1. Get into the project directory:
-> cd PushReactNative
+ `cd PushReactNative`
 2. Install the project dependencies:
-> npm install
+ `npm install`
 3. Register the app with your MFP Server:
-> cd android
-OR
-> cd ios
+ `cd android` OR `cd ios`
 followed by command,
-> mfpdev app register
+`mfpdev app register`
 
 *NOTE:* Make sure the app in MFP Console has security scope element: *push.mobileclient* set (for android) and FCM credentials are correctly put under *Push Settings*.
 4. Replace *google-services.json*:
@@ -22,10 +20,12 @@ followed by command,
 - Put it under directory android/app/
 
 ## Running the Sample
+
 For android: 
-> react-native run-android 
+`react-native run-android` 
+
 For iOS:
-> react-native run-ios
+`react-native run-ios`
 
 ## Understanding the Sample
 ##### Initializing the MFP Push Service:
@@ -64,9 +64,9 @@ MFPPush.subscribe(['tag1', 'tag2']).then(data => {
 ##### Registering Notifications Callback:
 This is important. Registering a callback will let the app be notified whenever any notification arrives. You do this by calling the api
 
-> MFPPush.registerNotificationsCallback(“myCallBack”);
+`MFPPush.registerNotificationsCallback(“myCallBack”);`
 
-This is just half the story. This step instructs the MFPPush SDK that whenever a notification is received, forward it to “myCallBack” Event Listener. 
+This is just half the story. This step instructs the MFPPush SDK that whenever a notification is received, forward it to `myCallBack` Event Listener. 
 
 Now we will implement the Listener named “myCallBack” in our app. Check out the following code for this,
 ```
